@@ -81,3 +81,4 @@ func TestFlightRecoversPanic(t *testing.T) {
 		t.Fatalf("group unusable after panic: %d, %v", v, err)
 	}
 }
+
