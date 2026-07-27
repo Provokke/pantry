@@ -90,4 +90,3 @@ go test -race -count=1 ./...
 - Loading: result cached, errors not cached, 40 goroutines sharing one load, panic recovery (4).
 - Singleflight on its own: shared runs, separate keys, errors, panics (4).
 - A mixed concurrent workload over eight goroutines (1).
-

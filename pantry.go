@@ -230,4 +230,3 @@ func (c *Cache[K, V]) Stats() Stats {
 		LoadErrors:  c.loadErrors.Load(),
 	}
 }
-

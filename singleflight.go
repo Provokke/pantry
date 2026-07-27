@@ -52,4 +52,3 @@ func (g *flightGroup[K, V]) inflight() int {
 	defer g.mu.Unlock()
 	return len(g.calls)
 }
-
